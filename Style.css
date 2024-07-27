@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+}
+.titulo{
+    display:flex;
+    justify-content: space-between;
+}
+/* .boton{
+    background-color: gray;
+    color: white;S
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+
+} */
+ .logo {
+    background-color: black;
+    Color: white;
+    padding: auto;
+    margin: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+} 
+ .lista1{
+    background-color: black;
+    margin: 0%; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: right;
+    list-style: none;  
+}
+
+.lista1 > li > a{
+    display: block;
+    padding: 10px 10px;
+    Color: white;
+    text-decoration: none;
+}
+.lista1 > li:hover{
+    background-color: rgba(255, 255, 255, 0.441);
+}
+
+.vertical{
+    position:absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+}
+.lista1 li:hover .vertical{
+    display: block;
+}
+.vertical li a{
+    display:block;
+    text-align: left;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://pinoutsolutions.com/wp-content/uploads/2022/05/Gestion-de-inventarios-Zoho-Inventory.jpg);
+    background-size: cover;
+    
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.seccion1{
+    background-color: rgba(188, 107, 40, 0.567);
+    margin:10px;
+    width:350px;
+    height: 200px;
+    float:right;
+    border-radius: 10px;
+    color:white;
+    
+
+}
+.seccion2{
+    background-color: rgba(188, 107, 40, 0.567);
+    margin:10px;
+    width:350px;
+    height: 200px;
+    Float:right;
+    border-radius: 10px;
+    color:white;
+    
+
+
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin: 0%;
+    padding: 1em 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+     width: 100%;
+     height: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+
+    
+
+} 
